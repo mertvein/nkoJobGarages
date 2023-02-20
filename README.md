@@ -26,6 +26,6 @@
 ensure nkoJobGarages
 ```
 
-## Image Showcase
+## Config Showcase
 ![image](https://cdn.discordapp.com/attachments/1077044488041664562/1077044569650249860/image.png)
 ![image](https://cdn.discordapp.com/attachments/1077044488041664562/1077044720280277043/image.png)
