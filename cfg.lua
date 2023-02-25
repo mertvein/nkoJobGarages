@@ -5,7 +5,6 @@ Config.Payment = true
 Config.CustomLivery = true
 Config.ShowBadgeTime = 7500
 Config.KeyEvent = 'vehiclekeys:client:SetOwner'
-Config.Plate = "911"..tostring(math.random(1000, 9999))
 
 Config.Vehicles = {
     ['mrpd'] = {
