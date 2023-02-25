@@ -112,7 +112,7 @@ RegisterNetEvent('nkoJobGarages:SpawnCar', function(data)
     
         QBCore.Functions.SpawnVehicle(vehicle, function(model)
             local properties = QBCore.Functions.GetVehicleProperties(model)
-            local plate = Config.Plate
+            local plate = QBCore.Shared.RandomInt(1) .. QBCore.Shared.RandomStr(2) .. QBCore.Shared.RandomInt(3) .. QBCore.Shared.RandomStr(2)
             SetVehicleNumberPlateText(model, plate)
             exports[Config.Fuel]:SetFuel(model, 100)
             TaskWarpPedIntoVehicle(PlayerPedId(), model, -1)
