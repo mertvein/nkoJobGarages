@@ -215,7 +215,7 @@ Config.Locations = {
             z = 28.8,
             w = 285.36
         },
-        spawnlocation = vector4(-461.95, 6037.85, 31.34, 136.85),
+        spawnlocation = vector4(316.35, -578.17, 28.03, 248.39),
         pedhash = 's_m_m_doctor_01',
         officer = 'Paramedic Neck',
         targetLabel = Lang:t('cfg.targetLabel'),
